@@ -1,0 +1,21 @@
+{
+  "name": "RIJU_XMD_MINI",
+  "description": "RIJU MD WhatsApp bot made by Riju",
+  "logo": "https://files.catbox.moe/14535o.png",
+  "keywords": ["bot","RIJU_XMD_MINI","RIJU-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the RIJU_MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
