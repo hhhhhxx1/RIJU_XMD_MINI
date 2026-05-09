@@ -1,12 +1,12 @@
 {
-  "name": "your name",
+  "name": "RIJU_XMD_MINI",
   "version": "1.0.0",
   "description": "A WhatsApp Bot Created To automate tasks",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name your name",
-    "stop": "pm2 stop your name",
-    "restart": "pm2 restart your name"
+    "start": "pm2 start index.js --deep-monitoring --attach --RIJU_XMD_MINI",
+    "stop": "pm2 stop RIJU_XMD_MINI",
+    "restart": "pm2 restart RIJU_XMD_MINI"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
