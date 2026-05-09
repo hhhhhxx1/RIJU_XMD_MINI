@@ -161,7 +161,7 @@ async function getProfilePicture(sock, jid) {
     const ppUrl = await sock.profilePictureUrl(jid, 'image');
     return ppUrl;
   } catch {
-    return 'https://n.uguu.se/BlGoHUJU.jpg'; // Default image
+    return 'https://files.catbox.moe/14535o.png'; // Default image
   }
 }
 
@@ -245,7 +245,7 @@ async function connectToWA() {
       const aliveMsg = `*╭──────────────●●►*\n> *RIJU MD CONNECTED SUCCESSFULLY*\n\n> *Type ${prefix}menu to view commands*  \n\n*╭⊱✫ KIRA MD ✫⊱╮*\n*│✫📂 Bot Name: ${botConfig.BOT_NAME}*\n*│✫🛡️ Owner: ${config.OWNER_NAME}*\n*│✫♻️ Prefix: ${prefix}*\n*│✫🌍 Mode: ${config.MODE}*\n*│✫⏰ Uptime: ${runtime(process.uptime())}*\n*╰──────────────●●►*\n\n> Enjoy Using KIRA MD`;
       
       // Image URL for connection message
-      const imageUrl = 'https://n.uguu.se/BlGoHUJU.jpg';
+      const imageUrl = 'https://files.catbox.moe/14535o.png';
       
       try {
         // Send to owner with image
@@ -361,7 +361,7 @@ async function connectToWA() {
           if (settings.goodbye) {
             try {
               // Get user's profile picture
-              const ppUrl = await getProfilePicture(sock, participant).catch(() => 'https://n.uguu.se/BlGoHUJU.jpg');
+              const ppUrl = await getProfilePicture(sock, participant).catch(() => 'https://files.catbox.moe/14535o.png');
               
               // Format goodbye message with variables
               let goodbyeText = settings.goodbyeMsg || DEFAULT_GOODBYE;
