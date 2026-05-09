@@ -1,0 +1,1 @@
+# RIJU_XMD_MINI
